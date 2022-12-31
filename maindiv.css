@@ -1,0 +1,182 @@
+* {
+    font-family:'consalos', serif;
+}
+
+body {
+    background-image: url("back6.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header_section {
+    margin-top: 2%;
+    text-align:center;
+    font-size: 60px;
+    background-image: linear-gradient(52deg, #41C8D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+.about_us {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.about_us_text {
+    color: black;
+    text-align: left;
+    padding: 1% 0%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.7));
+    border-radius: 25px;
+    height: 170px;
+    width: 950px;
+    margin: 0px 140px 0px 50px;
+}
+
+#about {
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+#description {
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.visit_card {
+    transform: translate(-10%);
+}
+
+.visit_card img {
+    border-radius: 25px;
+}
+
+.products {
+    margin-top: 5%;
+}
+
+.product_section h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.upper_part, .lower_part {
+    display: flex;
+    align-content: flex-end;
+    gap: 2%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+.product {
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 22%;
+    height: 560px;
+    border: none;
+    border-radius: 25px;
+}
+
+.product img {
+    margin-top: 6%;
+    border-radius: 15px;
+}
+
+.footer_section {
+    margin-top: 5%;
+    color: rgba(32, 152, 200, 1.0);
+    text-align:center;
+    background: rgba(236, 123, 50, 0.2);
+    border-radius: 25px;
+}
+
+#contact_us {
+    font-size: 50px;
+}
+
+.social_media {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 2%;
+}
+
+.social_media a {
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.maindiv{
+    width: 95%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-60%);
+   
+    background-image:url("humpipe.jpg") ;
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image:url("humpipe.jpg");}
+    33.33%{ background-image:url("pol.jpg");}
+    66.66{ background-image:url("curvestone.jpg");}
+}
+.aboutus {
+    display: flex;
+    align-content: flex-end;
+    width: 800px;
+    text-align: justify;
+}
+.aboutus img{
+    margin-left: 20%;
+    padding-right: 30%;
+}
